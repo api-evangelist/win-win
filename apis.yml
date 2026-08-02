@@ -1,7 +1,23 @@
 aid: win-win
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/win-win.png
 name: Win-Win
-description: Win-Win is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Win-Win (trywinwin.com) is a charitable-fundraising platform that gamifies giving. Participants
+  compete in tournaments hosted by celebrities and influencers, predicting head-to-head matchup outcomes and
+  making tax-deductible donations to charitable causes while climbing leaderboards to win prizes and experiences.
+  Win-Win also offers B2B tooling for nonprofits and corporations to launch their own gamified fundraising
+  campaigns, alongside a consumer mobile app. Surfaced as a 500 Global portfolio company. No public API or
+  developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/win-win/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fundraising
+- Nonprofit
+- Charity
+- Donations
+- Gaming
+- Social Impact
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/win-win-domain-security.yml
 - type: Website
   url: https://trywinwin.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
