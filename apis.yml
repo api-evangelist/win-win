@@ -30,6 +30,9 @@ description: Win-Win (trywinwin.com) is a charitable-fundraising platform that g
   campaigns, alongside a consumer mobile app. Surfaced as a 500 Global portfolio company. No public API or
   developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/win-win/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
